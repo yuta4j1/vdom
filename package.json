@@ -1,0 +1,20 @@
+{
+  "name": "vdom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild index.ts --bundle --platform=node --target=node10.4 --outfile=dist/app.js",
+    "start": "node dist/app.js",
+    "test": "jest"
+  },
+  "author": "yuta4j1",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.8.44",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "ts-jest": "^26.5.1",
+    "typescript": "^4.1.5"
+  }
+}
