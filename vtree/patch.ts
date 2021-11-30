@@ -3,7 +3,7 @@ import { VNode } from "../vnode/vnode";
 export type PatchType = "NONE" | "VNODE" | "VTEXT" | "PROPS" | "REMOVE";
 
 export type VPatches = {
-  [indesx: number]: VPatch;
+  [index: number]: VPatch;
 };
 
 export class VPatch {
